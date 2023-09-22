@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8"">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="js/index.js" charset="utf-8"></script>
+    <script src="js/jquery-3.7.0.js" charset="utf-8"></script>
+    <title>ゴルフプラザ鳩山</title>
+</head>
+
+<body>
+    <div id="header">GOLF PLAZA<br />HATOYAMA<br />ゴルフプラザ鳩山</div>
+
+    <div class="flex">
+        <figure class="image"><img src="img/GOLF-PLAZA-HATOYAMA.webp" alt=""></figure>
+
+        <div class="test">
+            <h1>ログイン</h1>
+            <label for="name">ユーザーID</label>
+
+            <input type="text" id="userid" name="name" title="userid" pattern="^[0-9a-zA-Z]+$" required minlength="4" maxlength="8" size="30" />
+
+            <label for="name">パスワード</label>
+
+            <input type="text" id="password" name="name" title="password" pattern="^[0-9a-zA-Z]+$" required minlength="4" maxlength="8" size="30" /><br />
+            <div id="errorMessage"></div><br />
+            <input type="button" value="ログイン" onclick="clickBtn1()" />
+
+            <ul>
+                <li><a href="contact.html" id="contact">ユーザーIDをお忘れの方はこちら</a></li>
+                <li><a href="contact.html" id="contact">パスワードをお忘れの方はこちら</a></li>
+                <li><a href="contact.html" id="contact">新規登録はこちら</a></li>
+            </ul>
+        </div>
+        </div>
+    <footer>
+        ■施設情報<br />
+        TEL：049-296-2211<br />
+
+        営業時間：8:00〜21:00  年中無休<br />
+
+        住所：〒350-0302  埼玉県比企郡鳩山町大字大橋 1081<br />
+
+        ホームページ：<a href="https://www.gp-hatoyama.com/" id="contact">https://www.gp-hatoyama.com/</a>
+
+    </footer>
+
+</body>
+</html>
